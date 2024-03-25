@@ -1,0 +1,93 @@
+2023-05-02 15:28:45,727 [INFO] main.py:107 - Training RGRS...
+2023-05-02 15:28:55,242 [INFO] main.py:126 - RGRS at embedding size 32, run Iteration:30, NDCG and HR at 5
+2023-05-02 15:41:30,235 [INFO] main.py:144 - User Iteration 0 [755.0 s]: Loss = 0.9593
+2023-05-02 15:42:16,146 [INFO] main.py:151 - Group Iteration 0 [800.9 s]: Loss = 0.9593
+2023-05-02 15:42:16,337 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 15:54:35,596 [INFO] main.py:144 - User Iteration 1 [739.3 s]: Loss = 0.8344
+2023-05-02 15:55:21,711 [INFO] main.py:151 - Group Iteration 1 [785.4 s]: Loss = 0.8371
+2023-05-02 15:55:22,201 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 16:07:53,547 [INFO] main.py:144 - User Iteration 2 [751.3 s]: Loss = 0.6476
+2023-05-02 16:08:40,224 [INFO] main.py:151 - Group Iteration 2 [798.0 s]: Loss = 0.6736
+2023-05-02 16:08:40,656 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 16:20:57,182 [INFO] main.py:144 - User Iteration 3 [736.5 s]: Loss = 0.4599
+2023-05-02 16:21:46,730 [INFO] main.py:151 - Group Iteration 3 [786.1 s]: Loss = 0.5030
+2023-05-02 16:21:47,142 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 16:34:13,303 [INFO] main.py:144 - User Iteration 4 [746.2 s]: Loss = 0.3146
+2023-05-02 16:34:59,391 [INFO] main.py:151 - Group Iteration 4 [792.2 s]: Loss = 0.3573
+2023-05-02 16:34:59,836 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 16:47:15,965 [INFO] main.py:144 - User Iteration 5 [736.1 s]: Loss = 0.2585
+2023-05-02 16:48:03,708 [INFO] main.py:151 - Group Iteration 5 [783.9 s]: Loss = 0.2968
+2023-05-02 16:48:04,119 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 17:00:20,278 [INFO] main.py:144 - User Iteration 6 [736.2 s]: Loss = 0.1773
+2023-05-02 17:01:05,947 [INFO] main.py:151 - Group Iteration 6 [781.8 s]: Loss = 0.1983
+2023-05-02 17:01:06,364 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 17:13:38,823 [INFO] main.py:144 - User Iteration 7 [752.5 s]: Loss = 0.1226
+2023-05-02 17:14:29,669 [INFO] main.py:151 - Group Iteration 7 [803.3 s]: Loss = 0.1300
+2023-05-02 17:14:30,076 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 17:27:07,758 [INFO] main.py:144 - User Iteration 8 [757.7 s]: Loss = 0.0856
+2023-05-02 17:27:53,385 [INFO] main.py:151 - Group Iteration 8 [803.3 s]: Loss = 0.0846
+2023-05-02 17:27:53,806 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 17:40:29,661 [INFO] main.py:144 - User Iteration 9 [755.9 s]: Loss = 0.0604
+2023-05-02 17:41:16,246 [INFO] main.py:151 - Group Iteration 9 [802.4 s]: Loss = 0.0547
+2023-05-02 17:41:16,654 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 17:53:43,865 [INFO] main.py:144 - User Iteration 10 [747.2 s]: Loss = 0.0509
+2023-05-02 17:54:32,619 [INFO] main.py:151 - Group Iteration 10 [796.0 s]: Loss = 0.0440
+2023-05-02 17:54:33,051 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 18:06:21,350 [INFO] main.py:144 - User Iteration 11 [708.3 s]: Loss = 0.0364
+2023-05-02 18:07:01,577 [INFO] main.py:151 - Group Iteration 11 [748.5 s]: Loss = 0.0287
+2023-05-02 18:07:01,970 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 18:18:28,092 [INFO] main.py:144 - User Iteration 12 [686.1 s]: Loss = 0.0262
+2023-05-02 18:19:08,712 [INFO] main.py:151 - Group Iteration 12 [726.7 s]: Loss = 0.0190
+2023-05-02 18:19:09,176 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 18:30:36,924 [INFO] main.py:144 - User Iteration 13 [687.7 s]: Loss = 0.0191
+2023-05-02 18:31:17,409 [INFO] main.py:151 - Group Iteration 13 [728.2 s]: Loss = 0.0127
+2023-05-02 18:31:17,796 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 18:42:43,946 [INFO] main.py:144 - User Iteration 14 [686.1 s]: Loss = 0.0140
+2023-05-02 18:43:24,290 [INFO] main.py:151 - Group Iteration 14 [726.5 s]: Loss = 0.0087
+2023-05-02 18:43:24,679 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 18:54:53,722 [INFO] main.py:144 - User Iteration 15 [689.0 s]: Loss = 0.0136
+2023-05-02 18:55:34,395 [INFO] main.py:151 - Group Iteration 15 [729.7 s]: Loss = 0.0084
+2023-05-02 18:55:34,913 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 19:07:04,031 [INFO] main.py:144 - User Iteration 16 [689.1 s]: Loss = 0.0129
+2023-05-02 19:07:44,746 [INFO] main.py:151 - Group Iteration 16 [729.8 s]: Loss = 0.0077
+2023-05-02 19:07:45,137 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 19:19:12,702 [INFO] main.py:144 - User Iteration 17 [687.6 s]: Loss = 0.0120
+2023-05-02 19:19:53,191 [INFO] main.py:151 - Group Iteration 17 [728.1 s]: Loss = 0.0072
+2023-05-02 19:19:53,585 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 19:31:21,550 [INFO] main.py:144 - User Iteration 18 [688.0 s]: Loss = 0.0112
+2023-05-02 19:32:01,978 [INFO] main.py:151 - Group Iteration 18 [728.4 s]: Loss = 0.0067
+2023-05-02 19:32:02,558 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 19:43:28,022 [INFO] main.py:144 - User Iteration 19 [685.5 s]: Loss = 0.0105
+2023-05-02 19:44:08,189 [INFO] main.py:151 - Group Iteration 19 [725.6 s]: Loss = 0.0059
+2023-05-02 19:44:08,626 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 19:55:34,230 [INFO] main.py:144 - User Iteration 20 [685.6 s]: Loss = 0.0102
+2023-05-02 19:56:14,486 [INFO] main.py:151 - Group Iteration 20 [725.9 s]: Loss = 0.0059
+2023-05-02 19:56:14,959 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 20:07:39,704 [INFO] main.py:144 - User Iteration 21 [684.7 s]: Loss = 0.0098
+2023-05-02 20:08:20,030 [INFO] main.py:151 - Group Iteration 21 [725.1 s]: Loss = 0.0057
+2023-05-02 20:08:20,477 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 20:19:45,499 [INFO] main.py:144 - User Iteration 22 [685.0 s]: Loss = 0.0090
+2023-05-02 20:20:25,642 [INFO] main.py:151 - Group Iteration 22 [725.2 s]: Loss = 0.0051
+2023-05-02 20:20:26,192 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 20:31:51,398 [INFO] main.py:144 - User Iteration 23 [685.2 s]: Loss = 0.0085
+2023-05-02 20:32:31,526 [INFO] main.py:151 - Group Iteration 23 [725.3 s]: Loss = 0.0047
+2023-05-02 20:32:31,911 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 20:43:57,148 [INFO] main.py:144 - User Iteration 24 [685.2 s]: Loss = 0.0079
+2023-05-02 20:44:37,467 [INFO] main.py:151 - Group Iteration 24 [725.6 s]: Loss = 0.0044
+2023-05-02 20:44:37,858 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 20:56:03,016 [INFO] main.py:144 - User Iteration 25 [685.2 s]: Loss = 0.0079
+2023-05-02 20:56:43,129 [INFO] main.py:151 - Group Iteration 25 [725.3 s]: Loss = 0.0044
+2023-05-02 20:56:43,554 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 21:08:07,935 [INFO] main.py:144 - User Iteration 26 [684.4 s]: Loss = 0.0077
+2023-05-02 21:08:48,072 [INFO] main.py:151 - Group Iteration 26 [724.5 s]: Loss = 0.0044
+2023-05-02 21:08:48,492 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 21:20:13,766 [INFO] main.py:144 - User Iteration 27 [685.3 s]: Loss = 0.0073
+2023-05-02 21:20:53,973 [INFO] main.py:151 - Group Iteration 27 [725.5 s]: Loss = 0.0041
+2023-05-02 21:20:54,388 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 21:32:19,471 [INFO] main.py:144 - User Iteration 28 [685.1 s]: Loss = 0.0071
+2023-05-02 21:32:59,783 [INFO] main.py:151 - Group Iteration 28 [725.4 s]: Loss = 0.0040
+2023-05-02 21:33:00,203 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 21:44:27,791 [INFO] main.py:144 - User Iteration 29 [687.6 s]: Loss = 0.0071
+2023-05-02 21:45:08,467 [INFO] main.py:151 - Group Iteration 29 [728.3 s]: Loss = 0.0037
+2023-05-02 21:45:08,887 [INFO] main.py:154 - model saved: RGRS.pt
+2023-05-02 21:45:08,887 [INFO] main.py:157 - Program executed successfully!
