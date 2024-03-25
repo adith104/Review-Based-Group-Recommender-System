@@ -1,0 +1,163 @@
+2023-04-22 16:10:54,528 [INFO] train_helper.py:67 - Training RGRSModel1...
+2023-04-22 16:10:54,528 [INFO] train_helper.py:70 - {'num_epochs': 100, 'batch_size': 16, 'learning_rate': 0.001, 'l2_regularization': 0.002, 'learning_rate_decay': 0.99, 'device': 'cuda:0', 'pad_word_id': 3000000, 'pad_item_id': 456987, 'pad_user_id': 200000, 'user_count': 200001, 'item_count': 456988, 'review_length': 200, 'review_count': 25, 'word_dim': 300, 'id_dim': 32, 'kernel_width': 3, 'kernel_deep': 100, 'dropout': 0.5}
+2023-04-22 16:12:46,797 [INFO] data_set.py:34 - Loading dataset...
+2023-04-22 16:22:35,877 [INFO] data_set.py:42 - Dataset loaded.
+2023-04-22 16:22:35,881 [INFO] data_set.py:34 - Loading dataset...
+2023-04-22 16:23:36,001 [INFO] data_set.py:42 - Dataset loaded.
+2023-04-22 16:45:42,465 [INFO] train_helper.py:124 - Epoch 0 complete. Total loss(train/dev)=0.672498/0.682608
+2023-04-22 16:45:42,465 [INFO] train_helper.py:129 - Get min loss: 0.6724978685379028
+2023-04-22 16:45:56,546 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 17:08:02,675 [INFO] train_helper.py:124 - Epoch 1 complete. Total loss(train/dev)=0.668174/0.680941
+2023-04-22 17:08:02,676 [INFO] train_helper.py:129 - Get min loss: 0.6681740880012512
+2023-04-22 17:08:38,916 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 17:30:44,870 [INFO] train_helper.py:124 - Epoch 2 complete. Total loss(train/dev)=0.672073/0.686041
+2023-04-22 17:52:51,008 [INFO] train_helper.py:124 - Epoch 3 complete. Total loss(train/dev)=0.673572/0.687048
+2023-04-22 18:14:57,622 [INFO] train_helper.py:124 - Epoch 4 complete. Total loss(train/dev)=0.660245/0.676468
+2023-04-22 18:14:57,622 [INFO] train_helper.py:129 - Get min loss: 0.6602452993392944
+2023-04-22 18:15:30,959 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 18:37:36,996 [INFO] train_helper.py:124 - Epoch 5 complete. Total loss(train/dev)=0.660338/0.677806
+2023-04-22 18:59:42,992 [INFO] train_helper.py:124 - Epoch 6 complete. Total loss(train/dev)=0.658312/0.676851
+2023-04-22 18:59:42,993 [INFO] train_helper.py:129 - Get min loss: 0.6583120822906494
+2023-04-22 19:00:18,741 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 19:22:25,952 [INFO] train_helper.py:124 - Epoch 7 complete. Total loss(train/dev)=0.656224/0.673908
+2023-04-22 19:22:25,953 [INFO] train_helper.py:129 - Get min loss: 0.656223714351654
+2023-04-22 19:22:54,193 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 19:45:02,471 [INFO] train_helper.py:124 - Epoch 8 complete. Total loss(train/dev)=0.653326/0.671311
+2023-04-22 19:45:02,472 [INFO] train_helper.py:129 - Get min loss: 0.6533262133598328
+2023-04-22 19:45:31,891 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 20:07:39,517 [INFO] train_helper.py:124 - Epoch 9 complete. Total loss(train/dev)=0.656375/0.676096
+2023-04-22 20:29:46,820 [INFO] train_helper.py:124 - Epoch 10 complete. Total loss(train/dev)=0.651627/0.673491
+2023-04-22 20:29:46,820 [INFO] train_helper.py:129 - Get min loss: 0.6516269445419312
+2023-04-22 20:30:15,549 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 20:52:22,949 [INFO] train_helper.py:124 - Epoch 11 complete. Total loss(train/dev)=0.650903/0.671806
+2023-04-22 20:52:22,950 [INFO] train_helper.py:129 - Get min loss: 0.6509031653404236
+2023-04-22 20:52:51,853 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 21:14:59,483 [INFO] train_helper.py:124 - Epoch 12 complete. Total loss(train/dev)=0.647841/0.669836
+2023-04-22 21:14:59,484 [INFO] train_helper.py:129 - Get min loss: 0.6478411555290222
+2023-04-22 21:15:28,616 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 21:37:36,034 [INFO] train_helper.py:124 - Epoch 13 complete. Total loss(train/dev)=0.644355/0.667224
+2023-04-22 21:37:36,034 [INFO] train_helper.py:129 - Get min loss: 0.6443553566932678
+2023-04-22 21:38:05,300 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 22:00:12,604 [INFO] train_helper.py:124 - Epoch 14 complete. Total loss(train/dev)=0.645862/0.671180
+2023-04-22 22:22:19,956 [INFO] train_helper.py:124 - Epoch 15 complete. Total loss(train/dev)=0.649682/0.674871
+2023-04-22 22:44:27,140 [INFO] train_helper.py:124 - Epoch 16 complete. Total loss(train/dev)=0.640945/0.666123
+2023-04-22 22:44:27,140 [INFO] train_helper.py:129 - Get min loss: 0.6409452557563782
+2023-04-22 22:44:56,715 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+2023-04-22 23:07:04,256 [INFO] train_helper.py:124 - Epoch 17 complete. Total loss(train/dev)=0.641812/0.667594
+2023-04-22 23:29:11,516 [INFO] train_helper.py:124 - Epoch 18 complete. Total loss(train/dev)=0.640982/0.666682
+2023-04-22 23:51:19,207 [INFO] train_helper.py:124 - Epoch 19 complete. Total loss(train/dev)=0.638583/0.666330
+2023-04-22 23:51:19,207 [INFO] train_helper.py:129 - Get min loss: 0.6385834813117981
+2023-04-22 23:51:49,228 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230422161054.pt
+
+2023-04-24 11:22:21,241 [INFO] train_helper.py:67 - Training RGRSModel1...
+2023-04-24 11:22:21,241 [INFO] train_helper.py:70 - {'num_epochs': 100, 'batch_size': 16, 'learning_rate': 0.001, 'l2_regularization': 0.002, 'learning_rate_decay': 0.99, 'device': 'cuda:0', 'pad_word_id': 3000000, 'pad_item_id': 456987, 'pad_user_id': 200000, 'user_count': 200001, 'item_count': 456988, 'review_length': 200, 'review_count': 25, 'word_dim': 300, 'id_dim': 32, 'kernel_width': 3, 'kernel_deep': 100, 'dropout': 0.5}
+2023-04-24 11:24:23,957 [INFO] data_set.py:34 - Loading dataset...
+2023-04-24 11:34:14,140 [INFO] data_set.py:42 - Dataset loaded.
+2023-04-24 11:34:14,142 [INFO] data_set.py:34 - Loading dataset...
+2023-04-24 11:35:15,297 [INFO] data_set.py:42 - Dataset loaded.
+2023-04-24 11:57:23,652 [INFO] train_helper.py:124 - Epoch 19 complete. Total loss(train/dev)=0.654611/0.682233
+2023-04-24 12:19:30,025 [INFO] train_helper.py:124 - Epoch 20 complete. Total loss(train/dev)=0.641071/0.670218
+2023-04-24 12:41:36,355 [INFO] train_helper.py:124 - Epoch 21 complete. Total loss(train/dev)=0.639542/0.667249
+2023-04-24 13:03:42,718 [INFO] train_helper.py:124 - Epoch 22 complete. Total loss(train/dev)=0.639838/0.668853
+2023-04-24 13:25:48,978 [INFO] train_helper.py:124 - Epoch 23 complete. Total loss(train/dev)=0.634044/0.662079
+2023-04-24 13:25:48,978 [INFO] train_helper.py:129 - Get min loss: 0.6340435743331909
+2023-04-24 13:26:02,776 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-24 13:48:09,154 [INFO] train_helper.py:124 - Epoch 24 complete. Total loss(train/dev)=0.636767/0.666178
+2023-04-24 14:10:17,305 [INFO] train_helper.py:124 - Epoch 25 complete. Total loss(train/dev)=0.636103/0.666092
+2023-04-24 14:32:23,551 [INFO] train_helper.py:124 - Epoch 26 complete. Total loss(train/dev)=0.638293/0.669053
+2023-04-24 14:54:30,131 [INFO] train_helper.py:124 - Epoch 27 complete. Total loss(train/dev)=0.635006/0.664210
+2023-04-24 15:16:36,943 [INFO] train_helper.py:124 - Epoch 28 complete. Total loss(train/dev)=0.636278/0.666026
+2023-04-24 15:38:43,558 [INFO] train_helper.py:124 - Epoch 29 complete. Total loss(train/dev)=0.632032/0.662502
+2023-04-24 15:38:43,558 [INFO] train_helper.py:129 - Get min loss: 0.6320323944091797
+2023-04-24 15:39:16,947 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-24 16:01:23,419 [INFO] train_helper.py:124 - Epoch 30 complete. Total loss(train/dev)=0.633803/0.663510
+2023-04-24 16:23:29,998 [INFO] train_helper.py:124 - Epoch 31 complete. Total loss(train/dev)=0.632541/0.663407
+2023-04-24 16:45:36,611 [INFO] train_helper.py:124 - Epoch 32 complete. Total loss(train/dev)=0.631505/0.663027
+2023-04-24 16:45:36,612 [INFO] train_helper.py:129 - Get min loss: 0.6315047740936279
+2023-04-24 16:46:12,643 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-24 17:08:21,803 [INFO] train_helper.py:124 - Epoch 33 complete. Total loss(train/dev)=0.633452/0.663505
+2023-04-24 17:30:31,195 [INFO] train_helper.py:124 - Epoch 34 complete. Total loss(train/dev)=0.632416/0.663976
+2023-04-24 17:52:40,367 [INFO] train_helper.py:124 - Epoch 35 complete. Total loss(train/dev)=0.634379/0.665127
+2023-04-24 18:14:51,121 [INFO] train_helper.py:124 - Epoch 36 complete. Total loss(train/dev)=0.631365/0.663192
+2023-04-24 18:14:51,122 [INFO] train_helper.py:129 - Get min loss: 0.6313645839691162
+2023-04-24 18:15:23,114 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-24 18:37:33,427 [INFO] train_helper.py:124 - Epoch 37 complete. Total loss(train/dev)=0.630122/0.661510
+2023-04-24 18:37:33,428 [INFO] train_helper.py:129 - Get min loss: 0.6301219463348389
+2023-04-24 18:38:07,473 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-24 19:00:16,984 [INFO] train_helper.py:124 - Epoch 38 complete. Total loss(train/dev)=0.629905/0.661246
+2023-04-24 19:00:16,985 [INFO] train_helper.py:129 - Get min loss: 0.629905104637146
+2023-04-24 19:00:50,880 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-24 19:23:01,967 [INFO] train_helper.py:124 - Epoch 39 complete. Total loss(train/dev)=0.631646/0.663345
+2023-04-24 19:45:12,318 [INFO] train_helper.py:124 - Epoch 40 complete. Total loss(train/dev)=0.631127/0.661931
+2023-04-24 20:07:24,405 [INFO] train_helper.py:124 - Epoch 41 complete. Total loss(train/dev)=0.629875/0.661114
+2023-04-24 20:07:24,405 [INFO] train_helper.py:129 - Get min loss: 0.6298745274543762
+2023-04-24 20:07:57,935 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-24 20:30:08,951 [INFO] train_helper.py:124 - Epoch 42 complete. Total loss(train/dev)=0.629860/0.660617
+2023-04-24 20:30:08,952 [INFO] train_helper.py:129 - Get min loss: 0.6298598647117615
+2023-04-24 20:30:44,040 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-24 20:52:53,425 [INFO] train_helper.py:124 - Epoch 43 complete. Total loss(train/dev)=0.635099/0.666079
+2023-04-24 21:15:03,132 [INFO] train_helper.py:124 - Epoch 44 complete. Total loss(train/dev)=0.629433/0.661189
+2023-04-24 21:15:03,132 [INFO] train_helper.py:129 - Get min loss: 0.6294331550598145
+2023-04-24 21:15:37,354 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-24 21:37:46,294 [INFO] train_helper.py:124 - Epoch 45 complete. Total loss(train/dev)=0.630013/0.661957
+2023-04-24 21:59:52,543 [INFO] train_helper.py:124 - Epoch 46 complete. Total loss(train/dev)=0.631515/0.663853
+2023-04-24 22:21:58,748 [INFO] train_helper.py:124 - Epoch 47 complete. Total loss(train/dev)=0.631783/0.662357
+2023-04-24 22:44:05,072 [INFO] train_helper.py:124 - Epoch 48 complete. Total loss(train/dev)=0.630998/0.662324
+2023-04-24 23:06:12,689 [INFO] train_helper.py:124 - Epoch 49 complete. Total loss(train/dev)=0.627564/0.658900
+2023-04-24 23:06:12,690 [INFO] train_helper.py:129 - Get min loss: 0.6275635957717896
+2023-04-24 23:06:51,271 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-24 23:28:57,722 [INFO] train_helper.py:124 - Epoch 50 complete. Total loss(train/dev)=0.629652/0.663028
+2023-04-24 23:51:03,985 [INFO] train_helper.py:124 - Epoch 51 complete. Total loss(train/dev)=0.635652/0.667029
+2023-04-25 00:13:10,145 [INFO] train_helper.py:124 - Epoch 52 complete. Total loss(train/dev)=0.627248/0.658627
+2023-04-25 00:13:10,146 [INFO] train_helper.py:129 - Get min loss: 0.6272479891777039
+2023-04-25 00:13:46,480 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-25 00:35:53,255 [INFO] train_helper.py:124 - Epoch 53 complete. Total loss(train/dev)=0.629744/0.661291
+2023-04-25 00:57:59,576 [INFO] train_helper.py:124 - Epoch 54 complete. Total loss(train/dev)=0.629578/0.662198
+2023-04-25 01:20:06,074 [INFO] train_helper.py:124 - Epoch 55 complete. Total loss(train/dev)=0.630983/0.663052
+2023-04-25 01:42:13,772 [INFO] train_helper.py:124 - Epoch 56 complete. Total loss(train/dev)=0.628995/0.661917
+2023-04-25 02:04:21,208 [INFO] train_helper.py:124 - Epoch 57 complete. Total loss(train/dev)=0.629813/0.661032
+2023-04-25 02:26:27,652 [INFO] train_helper.py:124 - Epoch 58 complete. Total loss(train/dev)=0.627437/0.660476
+2023-04-25 02:48:33,778 [INFO] train_helper.py:124 - Epoch 59 complete. Total loss(train/dev)=0.627928/0.659599
+2023-04-25 03:10:41,074 [INFO] train_helper.py:124 - Epoch 60 complete. Total loss(train/dev)=0.628225/0.660201
+2023-04-25 03:32:47,380 [INFO] train_helper.py:124 - Epoch 61 complete. Total loss(train/dev)=0.629142/0.661302
+2023-04-25 03:54:53,493 [INFO] train_helper.py:124 - Epoch 62 complete. Total loss(train/dev)=0.627438/0.658964
+2023-04-25 04:16:59,715 [INFO] train_helper.py:124 - Epoch 63 complete. Total loss(train/dev)=0.628236/0.660278
+2023-04-25 04:39:05,793 [INFO] train_helper.py:124 - Epoch 64 complete. Total loss(train/dev)=0.627423/0.659150
+2023-04-25 05:01:11,967 [INFO] train_helper.py:124 - Epoch 65 complete. Total loss(train/dev)=0.627958/0.659059
+2023-04-25 05:23:18,412 [INFO] train_helper.py:124 - Epoch 66 complete. Total loss(train/dev)=0.628963/0.660675
+2023-04-25 05:45:24,404 [INFO] train_helper.py:124 - Epoch 67 complete. Total loss(train/dev)=0.628613/0.660159
+2023-04-25 06:07:30,590 [INFO] train_helper.py:124 - Epoch 68 complete. Total loss(train/dev)=0.628178/0.658836
+2023-04-25 06:29:36,856 [INFO] train_helper.py:124 - Epoch 69 complete. Total loss(train/dev)=0.628296/0.659525
+2023-04-25 06:51:43,295 [INFO] train_helper.py:124 - Epoch 70 complete. Total loss(train/dev)=0.628166/0.659164
+2023-04-25 07:13:49,532 [INFO] train_helper.py:124 - Epoch 71 complete. Total loss(train/dev)=0.632162/0.663805
+2023-04-25 07:35:55,525 [INFO] train_helper.py:124 - Epoch 72 complete. Total loss(train/dev)=0.628210/0.659770
+2023-04-25 07:58:01,526 [INFO] train_helper.py:124 - Epoch 73 complete. Total loss(train/dev)=0.629853/0.661429
+2023-04-25 08:20:07,540 [INFO] train_helper.py:124 - Epoch 74 complete. Total loss(train/dev)=0.627644/0.659232
+2023-04-25 08:42:13,832 [INFO] train_helper.py:124 - Epoch 75 complete. Total loss(train/dev)=0.628838/0.659920
+2023-04-25 09:04:21,037 [INFO] train_helper.py:124 - Epoch 76 complete. Total loss(train/dev)=0.628516/0.660662
+2023-04-25 09:26:27,023 [INFO] train_helper.py:124 - Epoch 77 complete. Total loss(train/dev)=0.628044/0.659919
+2023-04-25 09:48:33,463 [INFO] train_helper.py:124 - Epoch 78 complete. Total loss(train/dev)=0.629103/0.660668
+2023-04-25 10:10:40,729 [INFO] train_helper.py:124 - Epoch 79 complete. Total loss(train/dev)=0.627735/0.658635
+2023-04-25 10:32:46,819 [INFO] train_helper.py:124 - Epoch 80 complete. Total loss(train/dev)=0.628514/0.658954
+2023-04-25 10:54:53,468 [INFO] train_helper.py:124 - Epoch 81 complete. Total loss(train/dev)=0.628904/0.658593
+2023-04-25 11:17:00,552 [INFO] train_helper.py:124 - Epoch 82 complete. Total loss(train/dev)=0.629222/0.660437
+2023-04-25 11:39:06,604 [INFO] train_helper.py:124 - Epoch 83 complete. Total loss(train/dev)=0.626977/0.657763
+2023-04-25 11:39:06,604 [INFO] train_helper.py:129 - Get min loss: 0.626976728439331
+2023-04-25 11:39:46,098 [INFO] train_helper.py:22 - model saved: /home/system4-user1/Desktop/Project/NARRE-Pytorch/model/checkpoints/NarreModel_20230424112221.pt
+2023-04-25 12:01:52,267 [INFO] train_helper.py:124 - Epoch 84 complete. Total loss(train/dev)=0.628069/0.657882
+2023-04-25 12:23:58,396 [INFO] train_helper.py:124 - Epoch 85 complete. Total loss(train/dev)=0.628036/0.657781
+2023-04-25 12:46:05,361 [INFO] train_helper.py:124 - Epoch 86 complete. Total loss(train/dev)=0.628988/0.658560
+2023-04-25 13:08:11,497 [INFO] train_helper.py:124 - Epoch 87 complete. Total loss(train/dev)=0.629116/0.658108
+2023-04-25 13:30:17,616 [INFO] train_helper.py:124 - Epoch 88 complete. Total loss(train/dev)=0.627263/0.657177
+2023-04-25 13:53:33,628 [INFO] train_helper.py:124 - Epoch 89 complete. Total loss(train/dev)=0.627131/0.656934
+2023-04-25 14:15:39,665 [INFO] train_helper.py:124 - Epoch 90 complete. Total loss(train/dev)=0.627809/0.657792
+2023-04-25 14:37:45,923 [INFO] train_helper.py:124 - Epoch 91 complete. Total loss(train/dev)=0.632244/0.660130
+2023-04-25 14:59:52,082 [INFO] train_helper.py:124 - Epoch 92 complete. Total loss(train/dev)=0.628817/0.658241
+2023-04-25 15:21:58,171 [INFO] train_helper.py:124 - Epoch 93 complete. Total loss(train/dev)=0.629679/0.658575
+2023-04-25 15:44:04,536 [INFO] train_helper.py:124 - Epoch 94 complete. Total loss(train/dev)=0.628997/0.658496
+2023-04-25 16:06:10,542 [INFO] train_helper.py:124 - Epoch 95 complete. Total loss(train/dev)=0.628317/0.657158
+2023-04-25 16:28:16,767 [INFO] train_helper.py:124 - Epoch 96 complete. Total loss(train/dev)=0.629877/0.659260
+2023-04-25 16:50:22,899 [INFO] train_helper.py:124 - Epoch 97 complete. Total loss(train/dev)=0.630019/0.659286
+2023-04-25 17:12:28,941 [INFO] train_helper.py:124 - Epoch 98 complete. Total loss(train/dev)=0.629982/0.658927
+2023-04-25 17:34:35,420 [INFO] train_helper.py:124 - Epoch 99 complete. Total loss(train/dev)=0.629489/0.658030
+2023-04-25 17:34:35,420 [INFO] train_helper.py:136 - RGRSModel1 trained!
